@@ -23,6 +23,13 @@ Run the container:
 docker run -d -p 8080:8080 --name ipecho local-ipecho
 ```
 
+### Using Docker Compose
+
+Start the service with Docker Compose using the provided `docker-compose.yml`:
+```bash
+docker compose up -d
+```
+
 ### Local Development
 
 Build and run locally:

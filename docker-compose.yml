@@ -1,7 +1,7 @@
 services:
   ipecho:
     build: .
-    network_mode: host
+    ports:
+      - "8080:8080"
     restart: unless-stopped
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Production
+    environment:      - ASPNETCORE_ENVIRONMENT=Production
